@@ -105,13 +105,13 @@ namespace project_6
         protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// txtName control.
+        /// txt_Name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
+        protected global::System.Web.UI.WebControls.TextBox txt_Name;
 
         /// <summary>
         /// txtPhone control.
@@ -123,15 +123,6 @@ namespace project_6
         protected global::System.Web.UI.WebControls.TextBox txtPhone;
 
         /// <summary>
-        /// txtDetalis control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDetalis;
-
-        /// <summary>
         /// DropDownList1 control.
         /// </summary>
         /// <remarks>
@@ -139,6 +130,33 @@ namespace project_6
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+
+        /// <summary>
+        /// txt_street control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_street;
+
+        /// <summary>
+        /// txt_Degree control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_Degree;
+
+        /// <summary>
+        /// txtDetalis control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDetalis;
 
         /// <summary>
         /// btn_vol control.
@@ -168,13 +186,13 @@ namespace project_6
         protected global::System.Web.UI.WebControls.TextBox txtName2;
 
         /// <summary>
-        /// txtNumber control.
+        /// txt_NationalNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumber;
+        protected global::System.Web.UI.WebControls.TextBox txt_NationalNumber;
 
         /// <summary>
         /// txtYear control.
@@ -186,13 +204,13 @@ namespace project_6
         protected global::System.Web.UI.WebControls.TextBox txtYear;
 
         /// <summary>
-        /// txtdesc control.
+        /// txtDescrption2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtdesc;
+        protected global::System.Web.UI.WebControls.TextBox txtDescrption2;
 
         /// <summary>
         /// btn_Par control.

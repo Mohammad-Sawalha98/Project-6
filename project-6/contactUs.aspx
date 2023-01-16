@@ -59,7 +59,7 @@
             display: flex;
             justify-content: center;
             justify-content: space-around;
-            background-image:url("\img\22.png");
+            background-image:url("\images\22.png");
             background-size:contain;
             background-repeat:no-repeat;
             padding: 5%;
@@ -94,7 +94,9 @@
         @media only screen and (min-device-width: 0px) and (max-device-width:480px) {
              .text2_{font-size:15px;}
 
-             .all{background-image:url("\img\223.png");}
+            .all {
+                background-image: none;
+            }
 
              .all{
                  flex-wrap:wrap;
@@ -116,7 +118,7 @@
 
         @media only screen and (min-device-width: 481px) and (max-device-width:768px) {
 
-            .all{background-image:none;}
+            .all{background-image:url("\images\223.png");}
          
             .h2-title{text-align: center;}
 
@@ -158,7 +160,7 @@
 
       
        <div>
-    <div class="row">
+    <div class="row"  style="background-color:white !important">
         <div class="text_contact_us">
         <h1 >Contact Us</h1>
         <p class="text2_">We always look forward to hearing from you. Got a question? Just reach out using the contact form below and send us your inquiry.We’ll respond to your message as soon as possible.</p>

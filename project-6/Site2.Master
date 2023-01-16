@@ -7,6 +7,18 @@
 <html>
 <head runat="server">
     <title></title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        function successalert() {
+            swal({
+                title: 'Congratulations!',
+                text: 'Your message has been succesfully sent',
+                type: 'success'
+            });
+        }
+    </script>
+
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -106,26 +118,24 @@
                 </div>
                 <div class="navbar-collapse collapse">
                    
-                         <img class="navbar-brand" src="\img\v1033-a-03-c.png" />
-                     <a class="navbar-brand" runat="server" href="~/">Hope</a>
+                         <img class="navbar-brand" src="\img\Hope Logo copy.png" />
+                    <%-- <a class="navbar-brand" runat="server" href="~/">Hope</a>--%>
                    
                    
                  <div class="logo-con">
                     <ul class="nav navbar-nav">
                      
                         <li><a runat="server" href="Default.aspx">Home</a></li>
-                        <li><a runat="server" href="campaign.aspx">campaigns</a></li>
-                        <li><a runat="server" href="#work">Our Work</a></li>
-                        <li><a runat="server" href="#sponsors">Sponsers</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="contactUs.aspx">Contact</a></li>
+                        <li><a runat="server" href="campaign.aspx">campaigns</a></li>   
+                        <li><a runat="server" href="aboutUs.aspx">About</a></li>
+                       <li><a runat="server" href="aboutUs.aspx">Contact</a></li>
                     </ul>
                       </div>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Register">Register</a></li>
-                                <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                                <li><a runat="server" href="Register.aspx">Register</a></li>
+                                <li><a runat="server" href="~/Account/Login.aspx">Log in</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>

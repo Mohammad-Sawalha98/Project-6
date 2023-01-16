@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="OpenAuthProviders.ascx.cs" Inherits="project_6.Account.OpenAuthProviders" %>
 
-<div id="socialLoginList">
-    <h4>Use another service to log in.</h4>
+<div id="socialLoginList" style="margin-left:35%">
+    <h4 style="color:white;">Use another service to log in.</h4>
     <hr />
     <asp:ListView runat="server" ID="providerDetails" ItemType="System.String"
         SelectMethod="GetProviderNames" ViewStateMode="Disabled">

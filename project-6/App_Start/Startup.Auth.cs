@@ -55,15 +55,15 @@ namespace project_6
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "556423979474988",
+               appSecret: "0fec3d23884e9320a2694bd52b94c465");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "680585917154-sf7df0vh6td5lmrk4b3l379t71a5fa29.apps.googleusercontent.com",
+                ClientSecret = "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"
+            });
         }
     }
 }

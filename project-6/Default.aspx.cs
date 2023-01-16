@@ -11,7 +11,9 @@ namespace project_6
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //ClientScript.RegisterClientScriptBlock(this.GetType(), "alert",
 
+            //     "swal('Sorry!   We regret not accepting you as a volunteer, we hope to see you later ', '', 'info')", true);
         }
 
         protected void LinkButton1_Click(object sender, EventArgs e)

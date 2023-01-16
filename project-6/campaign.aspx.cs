@@ -17,19 +17,7 @@ namespace project_6
 
           
         }
-        protected void Button1_onclick(object sender, EventArgs e)
-        {
-            //string path = Server.MapPath("/img/");
-            //string image1 = Path.GetFileName(FileUpload1.FileName);
-
-            string con = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-            SqlConnection conn = new SqlConnection(con);
-            SqlCommand com = new SqlCommand($"insert into Campaigns values('{TextBox1.Text}' ,'{TextArea1.Value}', 'Img/{Path.GetFileName(FileUpload1.FileName)}', '{TextBox2.Text}')", conn);
-            conn.Open();
-            com.ExecuteNonQuery();
-            conn.Close();
-
-        }
+       
 
        
     }

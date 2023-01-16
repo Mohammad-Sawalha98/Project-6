@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="project_6._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<%@ Register Src="~/homeSlider.ascx" TagPrefix="uc1" TagName="homeSlider" %>
 
+<asp:Content ID="ContentPlaceHolder1" ContentPlaceHolderID="MainContent" runat="server">
+
+    
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9331f54f-9335-4ef0-92e6-a7ddd6e6f0dd";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
     <style>
         :root{
@@ -430,30 +434,15 @@ details[open] div{
 
     <div>
         <!--** Title **-->
+        <uc1:homeSlider runat="server" ID="homeSlider" />
 
-    <section class="coloured-section" id="title">
-      <div class="container-fluid">
-        <div class="rowss">
-            <h2 class="big-heading">“Giving to others will not take away from what you have but will in fact add to your life”</h2>              
-          
-
-
-
-           
-           <asp:Button ID="Button1" runat="server" Text="Direct Donation" CssClass="rzp-button1" OnClick="Button1_Click" />
-          
-                    
-            </div>
-          </div>     
-    </section>
-
-   <!--** Features **-->
+<!--** Features **-->
         
         
         
    <section  class="features features_2">
     <div class="secf">
-      <h2> <i class="fa-solid fa-bars"></i>Hope Organization</h2>
+      <h2>Hope Organization</h2>
     </div>
     <div class="cards">
       <div>
@@ -464,7 +453,7 @@ details[open] div{
           <p>Hope directs its marketing efforts into boosting the livelihoods of people,
              those who are incapable of keeping up with the demands of life.
               Seeing that external looks matter, we aim at providing used/old clothes in the best possible shape for those in need.</p>
-              <p><a style="text-decoration: none;" href="About.aspx"><b>Get to know us more..</b></a></p>
+              <p><a style="text-decoration: none;" href="aboutUs.aspx"><b>Get to know us more..</b></a></p>
       </div>
 
       <div>
@@ -476,7 +465,7 @@ details[open] div{
 
         <div class="section_3" id="work">
             <div class="secf">
-      <h2>How we work ?</h2>
+      <h2>Steps in our process of donating clothing.</h2>
     </div> 
             <div class="workBox_big">
 
@@ -522,7 +511,7 @@ details[open] div{
     <div class="row row_divs">
 
           <div class="secf">
-      <h3>What do we receive in Hope organization ?</h3>
+      <h3>What you can donate to Hope organization ?</h3>
     </div> 
 
 
@@ -596,18 +585,25 @@ details[open] div{
 
 <%-- ------------ Sponsor ------------%>
 
+<%-- ------------ Sponsor ------------%>
 
 
-        <div class="Sponsor_11" id="sponsors">
+
+        <div class="Sponsor_11">
     <div class="row">
 
           <div class="secf">
-      <h2>Sponsor</h2>
+      <h2>Sponsors</h2>
     </div> 
 
         <div>
 
 
+
+
+
+
+            
 <div class="col-xs-12">
 
    
@@ -622,7 +618,7 @@ details[open] div{
                         <li class="col-sm-3">
     						<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser1.png" class="sponser_box"/>
+									<a href="https://nafa.org.sa/"><img src="images/sponser6.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -634,7 +630,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser2.png" class="sponser_box"/>
+									<a href="https://asnasstore.com/"><img src="images/sponser2.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -646,7 +642,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser3.png" class="sponser_box"/>
+									<a href="https://molhamteam.com/"><img src="images/sponser3.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -658,7 +654,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser4.png" class="sponser_box"/>
+									<a href="https://www.tua.jo/ar"><img src="images/sponser4.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -674,7 +670,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser5.png" class="sponser_box"/>
+									<a href="https://www.unicef.org/ar"><img src="images/sponser5.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -686,7 +682,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser6.png" class="sponser_box"/>
+                                    <a href="https://asnasstore.com/"><img src="images/sponser1.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -698,7 +694,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser7.png" class="sponser_box"/>
+									<a href="https://www.bloomingwear.com/"><img src="images/sponser7.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -710,7 +706,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser8.png" class="sponser_box"/>
+									<a href="https://www.nrc.no/"><img src="images/sponser8.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -726,7 +722,7 @@ details[open] div{
                         <li class="col-sm-3">	
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser9.png" class="sponser_box"/>
+									<a href="https://www.joud.org.sa/"><img src="images/sponser9.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -738,7 +734,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser10.png" class="sponser_box"/>
+									<a href="https://khairuk.org/en/"><img src="images/sponser10.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -750,7 +746,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser11.png" class="sponser_box"/>
+									<a href="https://ershadabha.org.sa/"><img src="images/sponser11.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -762,7 +758,7 @@ details[open] div{
                         <li class="col-sm-3">
 							<div class="fff">
 								<div class="thumbnail_1">
-									<img src="images/sponser12.png" class="sponser_box"/>
+									<a href="http://www.civilsociety-jo.net/ar/organization/953"><img src="images/sponser12.png" class="sponser_box"/></a>
 								</div>
 								<div class="caption">
 									
@@ -788,75 +784,8 @@ details[open] div{
         
 
 
-        <%------ FAQ ------%>
-<div class="row">
-  <div class="secf">
-      <h2>Frequently Asked Questions</h2>
-    </div> 
-    </div>
-    <div class="container">
-  <details>
-  <summary class="summary_me">1. What Is Hope?</summary>
-  <div>Hope is a recycling clothing project, that sorting garments for better use, in order to serve charities and help the less fortunate in Jordan.
-</div>
-</details>
-</div>
-
-        <div class="container">
-  <details>
-  <summary class="summary_me">2. What kinds of donations do you receive?</summary>
-  <div>We receive all types of clothes with various qualities
-</div>
-</details>
-</div>
-
-        <div class="container">
-  <details>
-  <summary class="summary_me">What Is Hope?</summary>
-  <div>The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.</div>
-</details>
-</div>
-
-        <div class="container">
-  <details>
-  <summary class="summary_me">What Is Hope?</summary>
-  <div>The tags details and summary have you covered.</div>
-</details>
-</div>
-
-        <div class="container">
-  <details>
-  <summary class="summary_me">What Is Hope?The tags details and summary have you covered.The tags details and summary have you covered.</summary>
-  <div>The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.The tags details and summary have you covered.</div>
-</details>
-</div>
-
-        <div class="container">
-  <details>
-  <summary class="summary_me">What Is Hope?</summary>
-  <div>The tags details and summary have you covered.</div>
-</details>
-</div>
-
-        <div class="container">
-  <details>
-  <summary class="summary_me">What Is Hope?</summary>
-  <div>The tags details and summary have you covered.</div>
-</details>
-</div>
-
-        <div class="container">
-  <details>
-  <summary class="summary_me">What Is Hope?</summary>
-  <div>The tags details and summary have you covered.</div>
-</details>
-</div>
 
 
-
-</div>
-
-        <!-- End Frequently Asked Questions Section -->
 
 
 
@@ -865,10 +794,6 @@ details[open] div{
 
     </div>
     </div>
-
-
-     </div>
-
 
 
 <%--     --------------- End -------------%>
@@ -881,4 +806,6 @@ details[open] div{
 
 
 
+</div>
+</div>
 </asp:Content>

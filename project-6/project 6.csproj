@@ -152,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="aboutUs.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
@@ -167,6 +168,45 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Admin\AddCampigns.aspx" />
+    <Content Include="Admin\Campaigns.aspx" />
+    <Content Include="Admin\css\bootstrap\bootstrap.min.css" />
+    <Content Include="Admin\css\bootstrap\style.css" />
+    <Content Include="Admin\css\css\bootstrap.min.css" />
+    <Content Include="Admin\css\css\bootstrap\mixins\_border-radius.css" />
+    <Content Include="Admin\css\css\bootstrap\mixins\_screen-reader.css" />
+    <Content Include="Admin\css\css\bootstrap\mixins\_visibility.css" />
+    <Content Include="Admin\css\css\bootstrap\utilities\_stretched-link.css" />
+    <Content Include="Admin\css\css\bootstrap\_media.css" />
+    <Content Include="Admin\css\css\style.css" />
+    <Content Include="Admin\div.png" />
+    <Content Include="Admin\donationDetails.aspx" />
+    <Content Include="Admin\Donations.aspx" />
+    <Content Include="Admin\Image\2928003.jpg" />
+    <Content Include="Admin\AdminImage\2928003.jpg" />
+    <Content Include="Admin\AdminImage\dove.png" />
+    <Content Include="Admin\AdminImage\lloogg.png" />
+    <Content Include="Admin\AdminImage\str.png" />
+    <Content Include="Admin\AdminImage\WhatsApp Image 2023-01-10 at 08.44.56 %281%29.jpeg" />
+    <Content Include="Admin\AdminImage\WhatsApp Image 2023-01-10 at 08.44.56 %284%29.jpeg" />
+    <Content Include="Admin\Image\dove.png" />
+    <Content Include="Admin\Image\Hope Logo copy.png" />
+    <Content Include="Admin\Image\lloogg.png" />
+    <Content Include="Admin\Image\mohammad.jpeg" />
+    <Content Include="Admin\Image\piic.png" />
+    <Content Include="Admin\js\bootstrap.min.js" />
+    <Content Include="Admin\js\jquery.min.js" />
+    <Content Include="Admin\js\js\main.js" />
+    <Content Include="Admin\js\js\popper.js" />
+    <Content Include="Admin\js\main.js" />
+    <Content Include="Admin\js\popper.js" />
+    <Content Include="Admin\Partner.aspx" />
+    <Content Include="Admin\partnerDetails.aspx" />
+    <Content Include="Admin\Recommendation.aspx" />
+    <Content Include="Admin\UserMessage.aspx" />
+    <Content Include="Admin\volunteerDetails.aspx" />
+    <Content Include="Admin\Volunteers.aspx" />
+    <Content Include="Admin\WebForm1.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -174,6 +214,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="ErrorPage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -187,17 +228,54 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
     <Content Include="campaign.aspx" />
-    <Content Include="Donation-Request.aspx" />
     <Content Include="contactUs.aspx" />
+    <Content Include="images\poor.jpg" />
+    <Content Include="Image\lloogg.png" />
+    <Content Include="Image\mm22.png" />
+    <Content Include="Image\str.png" />
+    <Content Include="Image\WhatsApp Image 2023-01-10 at 08.44.56 %281%29.jpeg" />
+    <Content Include="Image\WhatsApp Image 2023-01-10 at 08.44.56 %282%29.jpeg" />
+    <Content Include="Image\WhatsApp Image 2023-01-10 at 08.44.56 %283%29.jpeg" />
+    <Content Include="Image\WhatsApp Image 2023-01-10 at 08.44.56 %284%29.jpeg" />
+    <Content Include="Image\WhatsApp Image 2023-01-10 at 08.44.56.jpeg" />
+    <Content Include="img\83 [Converted].png" />
+    <Content Include="img\clothes-backgrpund.jpg" />
     <Content Include="img\contact.jpeg" />
+    <Content Include="img\Hope Logo copy.png" />
+    <Content Include="img\poorchild.jpg" />
+    <Content Include="img\profile.jpeg" />
+    <Content Include="img\reg.png" />
+    <Content Include="img\WhatsApp Image 2023-01-11 at 10.30.35 PM.jpeg" />
+    <Content Include="Script.js" />
     <Content Include="Scripts\sweetalert-dev.js" />
     <Content Include="Scripts\sweetalert.min.js" />
     <Content Include="Single-campaign.aspx" />
+    <Content Include="Styles.css" />
     <Content Include="Styles\sweetalert.css" />
     <Content Include="Register.aspx" />
+    <Content Include="Partners.aspx" />
+    <Content Include="donationPage.aspx" />
+    <Content Include="WebForm17.aspx" />
+    <Content Include="WebForm19.aspx" />
+    <Content Include="Volunteer.aspx" />
+    <Content Include="partnersProfile.aspx" />
     <Content Include="WebForm6.aspx" />
-    <Content Include="User-Profile.aspx" />
-    <Content Include="WebUserControl1.ascx" />
+    <Content Include="AddCampaigns.aspx" />
+    <Content Include="paypal.ascx" />
+    <Content Include="homeSlider.ascx" />
+    <Content Include="donateClothes.ascx" />
+    <Content Include="Admin\css\css\.DS_Store" />
+    <Content Include="Admin\css\css\bootstrap\.DS_Store" />
+    <Content Include="Admin\css\css\bootstrap\mixins\.DS_Store" />
+    <Content Include="Admin\js\.DS_Store" />
+    <Content Include="Admin\Site1.Master" />
+    <Content Include="Admin\Web.config" />
+    <Content Include="Admin\Image\myPic.lnk" />
+    <Content Include="userProfile.ascx" />
+    <Content Include="donationRequest.ascx" />
+    <Content Include="Recommandaions.ascx" />
+    <Content Include="recommandationCompleted.ascx" />
+    <Content Include="Wait.ascx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="img\865028-1.jpg" />
     <Content Include="img\Displaced-Syrian-kid-in-a-mud-at-Winter.jpg" />
@@ -243,6 +321,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutUs.aspx.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutUs.aspx.designer.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -348,6 +433,89 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AddCampigns.aspx.cs">
+      <DependentUpon>AddCampigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCampigns.aspx.designer.cs">
+      <DependentUpon>AddCampigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Campaigns.aspx.cs">
+      <DependentUpon>Campaigns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Campaigns.aspx.designer.cs">
+      <DependentUpon>Campaigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\donationDetails.aspx.cs">
+      <DependentUpon>donationDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\donationDetails.aspx.designer.cs">
+      <DependentUpon>donationDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Donations.aspx.cs">
+      <DependentUpon>Donations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Donations.aspx.designer.cs">
+      <DependentUpon>Donations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Partner.aspx.cs">
+      <DependentUpon>Partner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Partner.aspx.designer.cs">
+      <DependentUpon>Partner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\partnerDetails.aspx.cs">
+      <DependentUpon>partnerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\partnerDetails.aspx.designer.cs">
+      <DependentUpon>partnerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Recommendation.aspx.cs">
+      <DependentUpon>Recommendation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Recommendation.aspx.designer.cs">
+      <DependentUpon>Recommendation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserMessage.aspx.cs">
+      <DependentUpon>UserMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserMessage.aspx.designer.cs">
+      <DependentUpon>UserMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\volunteerDetails.aspx.cs">
+      <DependentUpon>volunteerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\volunteerDetails.aspx.designer.cs">
+      <DependentUpon>volunteerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Volunteers.aspx.cs">
+      <DependentUpon>Volunteers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Volunteers.aspx.designer.cs">
+      <DependentUpon>Volunteers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -373,6 +541,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -392,19 +567,19 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
     <Compile Include="Site2.Master.cs">
       <DependentUpon>Site2.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site3.Master.cs">
+      <DependentUpon>Site3.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site3.Master.designer.cs">
+      <DependentUpon>Site3.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
@@ -420,13 +595,6 @@
     </Compile>
     <Compile Include="campaign.aspx.designer.cs">
       <DependentUpon>campaign.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Donation-Request.aspx.cs">
-      <DependentUpon>Donation-Request.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Donation-Request.aspx.designer.cs">
-      <DependentUpon>Donation-Request.aspx</DependentUpon>
     </Compile>
     <Compile Include="contactUs.aspx.cs">
       <DependentUpon>contactUs.aspx</DependentUpon>
@@ -449,6 +617,48 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Partners.aspx.cs">
+      <DependentUpon>Partners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Partners.aspx.designer.cs">
+      <DependentUpon>Partners.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="donationPage.aspx.cs">
+      <DependentUpon>donationPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="donationPage.aspx.designer.cs">
+      <DependentUpon>donationPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm17.aspx.cs">
+      <DependentUpon>WebForm17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm17.aspx.designer.cs">
+      <DependentUpon>WebForm17.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm19.aspx.cs">
+      <DependentUpon>WebForm19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm19.aspx.designer.cs">
+      <DependentUpon>WebForm19.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Volunteer.aspx.cs">
+      <DependentUpon>Volunteer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Volunteer.aspx.designer.cs">
+      <DependentUpon>Volunteer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="partnersProfile.aspx.cs">
+      <DependentUpon>partnersProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnersProfile.aspx.designer.cs">
+      <DependentUpon>partnersProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm6.aspx.cs">
       <DependentUpon>WebForm6.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -456,19 +666,68 @@
     <Compile Include="WebForm6.aspx.designer.cs">
       <DependentUpon>WebForm6.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User-Profile.aspx.cs">
-      <DependentUpon>User-Profile.aspx</DependentUpon>
+    <Compile Include="AddCampaigns.aspx.cs">
+      <DependentUpon>AddCampaigns.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User-Profile.aspx.designer.cs">
-      <DependentUpon>User-Profile.aspx</DependentUpon>
+    <Compile Include="AddCampaigns.aspx.designer.cs">
+      <DependentUpon>AddCampaigns.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebUserControl1.ascx.cs">
-      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    <Compile Include="paypal.ascx.cs">
+      <DependentUpon>paypal.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebUserControl1.ascx.designer.cs">
-      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    <Compile Include="paypal.ascx.designer.cs">
+      <DependentUpon>paypal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="homeSlider.ascx.cs">
+      <DependentUpon>homeSlider.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeSlider.ascx.designer.cs">
+      <DependentUpon>homeSlider.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="donateClothes.ascx.cs">
+      <DependentUpon>donateClothes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="donateClothes.ascx.designer.cs">
+      <DependentUpon>donateClothes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="userProfile.ascx.cs">
+      <DependentUpon>userProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userProfile.ascx.designer.cs">
+      <DependentUpon>userProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="donationRequest.ascx.cs">
+      <DependentUpon>donationRequest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="donationRequest.ascx.designer.cs">
+      <DependentUpon>donationRequest.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Recommandaions.ascx.cs">
+      <DependentUpon>Recommandaions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recommandaions.ascx.designer.cs">
+      <DependentUpon>Recommandaions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="recommandationCompleted.ascx.cs">
+      <DependentUpon>recommandationCompleted.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recommandationCompleted.ascx.designer.cs">
+      <DependentUpon>recommandationCompleted.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Wait.ascx.cs">
+      <DependentUpon>Wait.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wait.ascx.designer.cs">
+      <DependentUpon>Wait.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -478,8 +737,8 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="Site1.Master" />
     <Content Include="Site2.Master" />
+    <Content Include="Site3.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
